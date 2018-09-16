@@ -3,9 +3,11 @@ All the problem of Codeforce that I have solved are here.
 
 If you want a solution to a problem just use user browser find function and enter the problem number.I hope you will find the desired solution.Thank you. 
 
-Codeforces Round #509 (Div.2)
+<h1>Codeforces Round #509 (Div.2)</h1>
+
 Problem #<a href="https://github.com/Mahfuz001/codeforce_solutions/blob/master/1041A.java">1041A</a>
 
+-----------------------------------------------------------------------------------------------------
 
 Problem # <a href = "https://github.com/Mahfuz001/codeforce_solutions/blob/master/1040A.java">1040A.java</a>
 
