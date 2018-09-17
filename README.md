@@ -5,13 +5,20 @@ If you want a solution to a problem just use user browser find function and ente
 
 <h1>Codeforces Round #509 (Div.2)</h1>
 
-Problem #<a href="https://github.com/Mahfuz001/codeforce_solutions/blob/master/1041A.java">1041A</a>
+Problem #<a href="https://github.com/Mahfuz001/codeforce_solutions/blob/master/1041A.java">1041A.java</a>
 
------------------------------------------------------------------------------------------------------
+---
 
-Problem # <a href = "https://github.com/Mahfuz001/codeforce_solutions/blob/master/1040A.java">1040A.java</a>
+Problem #  <a href = "https://github.com/Mahfuz001/codeforce_solutions/blob/master/1040A.java">1040A.java</a>
+
+---
 
 
+<h1>Manthan, Codefest 18 (rated, Div. 1 + Div. 2)</h1>
+
+Problem #<a href = "https://github.com/Mahfuz001/codeforce_solutions/blob/master/1037A.java">1037A.java</a>
+
+---
 Problem # <a href = "https://github.com/Mahfuz001/codeforce_solutions/blob/master/1006A.java">1006A.java</a>
 
 
