@@ -37,6 +37,7 @@
 
 #own
 *.txt
+main.cpp
 
 
 # End of https://www.gitignore.io/api/c++
