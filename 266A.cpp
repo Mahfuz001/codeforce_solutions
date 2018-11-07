@@ -6,13 +6,15 @@ int main(){
     cin >> n;
     string s;
     cin>>s;
-
-    for(int i=0;i<n-1;i++){
-        if(s[i] == s[i+1]){
+    char p=' ';
+    for(auto a:s){
+        if(a == p){
             count++;
+            continue;
         }
+        p = a;
     }
-    cout << count<<endl;
+    cout << count << endl;
 
     return 0;
 }
