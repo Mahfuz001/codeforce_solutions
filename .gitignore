@@ -38,6 +38,5 @@
 #own
 *.txt
 main.cpp
-
-
+158B.cpp
 # End of https://www.gitignore.io/api/c++
