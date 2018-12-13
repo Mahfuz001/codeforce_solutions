@@ -19,6 +19,30 @@ int main(){
 	freopen("input.txt","r",stdin);
 	freopen("output.txt","w",stdout)
 	#endif
+    
+    lli n,m;
+    lli del=0;
+    vector<int> vec;
+    
+    cin >> n >> m;
+    for(int i=0;i<n;i++){
+        lli a;
+        cin >> a;
+        vec.push_back(a);
+    }
+    sort(vec.begin(),vec.end());
+    if(vec[0] < vec[1]){
+        del+=vec[0];
+    }
+    for(int i=1;i<n;i++){
+        if(vec[i] < vec[i+1]){
+            del++;
+        }
+        if(vec[i] == vec[i+1] && del != 0){
+            del+=vec[i-1];
+        }
+    }
+    cout << del;br;
 
 
 	return 0;
