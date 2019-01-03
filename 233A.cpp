@@ -8,7 +8,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 #define lli long long int
-#define br std::cout << "\n"<<flush;
+#define br std::cout << "\n";
 #define flush std::cout<<flush;
 #define push push_back
 
@@ -24,6 +24,27 @@ int main(){
     freopen("input.txt","r",stdin);
     //freopen("output.txt","w",stdout);
     #endif
+    
+    vector<int> vec(100);
+    int n;
+    cin>>n;
+    
+    if(n % 2 == 0){
+        for(int i=1;i<=n;i++){
+            vec[i] = i+1;
+            vec[i+1] = i;
+            i+=1;
+        }
+        cout<<vec[1];flush;
+        for(int i=2;i<=n;i++){
+            cout<<" "<<vec[i];
+            flush;
+        }
+        br;
+    }else{
+        cout<<"-1";br;
+        flush;
+    }
     
     
     
