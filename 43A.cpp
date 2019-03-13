@@ -1,5 +1,5 @@
 //
-// 	
+// 	43A
 // 
 //	author: Mahfuz Ahmed 
 // 
@@ -41,7 +41,7 @@ int main(){
 		}
 	}
 	if(a > b) cout << s1;
-	else cout << s2;
+	else cout << ;
 	nl;
     return 0;
 }
