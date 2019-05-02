@@ -15,15 +15,14 @@ using namespace std;
 #define forj(s,n) for(int j=s;j<n;j++)
 
 typedef long long ll;
-const double pi = 2*acos(0.0);
-const long long mod = 1e9+7;
-const int MAX_N = 1e6+5;
+//~ const double pi = 2*acos(0.0);
+//~ const long long mod = 1e9+7;
+//~ const int MAX_N = 1e6+5;
 
-int main(){
+int main(int argc, char* argv[]){
     ios_base::sync_with_stdio(0);
     cin.tie(NULL);
-    cout.tie(NULL);
-    
+       
     #ifdef _DEBUG
     freopen("input.txt","r",stdin);
     //freopen("output.txt","w",stdout);
@@ -34,4 +33,3 @@ int main(){
 
     return 0;
 }
-
