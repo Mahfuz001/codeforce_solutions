@@ -1,8 +1,7 @@
-/*
- * 
- * Created by Mahfuz Ahmed.
- * 
- */
+/**
+ * 	author: krayr
+ * 	created: 
+**/
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -10,9 +9,7 @@ using namespace std;
 #define sz(a) (int)(a).size()
 #define pb push_back
 #define mp make_pair
-#define br std::cout << "\n";
-#define fori(s,n) for(int i=s;i<n;i++)
-#define forj(s,n) for(int j=s;j<n;j++)
+#define forn(i, s, n) for(int i = s; i < int(n); i++)
 
 typedef long long ll;
 //~ const double pi = 2*acos(0.0);
@@ -28,7 +25,7 @@ int main(int argc, char* argv[]){
     //freopen("output.txt","w",stdout);
     #endif
     
-    
+	
     
 
     return 0;
