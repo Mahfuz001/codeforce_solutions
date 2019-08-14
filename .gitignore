@@ -1,9 +1,9 @@
 
 # Created by https://www.gitignore.io/api/c++
-1077C.cpp
-1013B.cpp
-1077C.cpp
-1121A.cpp
+
+
+
+
 .DS_Store
 
 ### C++ ###
@@ -42,6 +42,5 @@
 
 #own
 *.txt
-main.cpp
-158B.cpp
+
 # End of https://www.gitignore.io/api/c++
