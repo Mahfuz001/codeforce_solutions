@@ -1,20 +1,17 @@
 /**
- * 	author: krayr
- * 	created: 
+ *  author: {developer}
+ *  created: {date}
 **/
 
 #include <bits/stdc++.h>
 using namespace std;
-#define all(a) (a).begin(), (a).end()
-#define sz(a) (int)(a).size()
-#define pb push_back
-#define mp make_pair
-#define forn(i, s, n) for(int i = s; i < int(n); i++)
-
-typedef long long ll;
+#define debug(x) cout << '>' << #x << ':' << x << endl;
+#define pii pair<int, int>
+#define pll pair<long long, long long>
 //~ const double pi = 2*acos(0.0);
-//~ const long long mod = 1e9+7;
-//~ const int MAX_N = 1e6+5;
+//~ const long long mod = 1000000007;
+//~ const int maxn = 1000005;
+typedef long long ll;
 
 int main(int argc, char* argv[]){
     ios_base::sync_with_stdio(0);
@@ -22,11 +19,11 @@ int main(int argc, char* argv[]){
        
     #ifdef _DEBUG
     freopen("input.txt","r",stdin);
-    //freopen("output.txt","w",stdout);
+    //~ freopen("output.txt","w",stdout);
     #endif
     
-	
     
-
+    
+    
     return 0;
 }
