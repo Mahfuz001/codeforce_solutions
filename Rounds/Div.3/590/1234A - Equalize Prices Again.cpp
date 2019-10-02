@@ -1,6 +1,6 @@
 /**
  *  author: mahfuzz
- *  created: 02.10.2019
+ *  created: 01.10.2019
 **/
 
 #include <bits/stdc++.h>
@@ -13,17 +13,6 @@ using namespace std;
 //~ const int maxn = 1000005;
 typedef long long ll;
 
-int digSum(int n){
-    int sum = 0;
-    while(n){
-        sum += n % 10;
-        n /= 10;
-    }
-
-    return sum;
-}
-
-
 int main(int argc, char* argv[]){
     ios_base::sync_with_stdio(0);
     cin.tie(NULL);
@@ -33,17 +22,23 @@ int main(int argc, char* argv[]){
     //~ freopen("output.txt","w",stdout);
     #endif
     
-    int k; cin >> k;
-    int cnt = 0, i = 19;
-    
-    while(cnt != k){
-        if(digSum(i) == 10)
-            cnt++;
-        if(cnt < k)
-            i++;
+    int q; cin >> q;
+    while(q--){
+        int n; cin >> n;
+        
+        int sum = 0;
+        int x;
+        for(int i = 0; i < n; i++){
+            cin >> x;
+            sum += x;
+        }
+        
+        if(sum % n != 0)
+            cout << sum / n + 1 << "\n";
+        else
+            cout << sum / n << "\n";
     }
     
-    cout << i << "\n";
     
     return 0;
 }
